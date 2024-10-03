@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Навчання/ІПЗ/lab2</OriginalElement>
+  <nodes>
+    <node x="245.49999999999977" y="243.99063670411982">lab2.Interface3</node>
+    <node x="-134.8426966292135" y="724.6486891385769">lab2.Main</node>
+    <node x="212.3417413954301" y="450.6382476172598">lab2.Class3</node>
+    <node x="-422.20037453183534" y="449.0">lab2.Class1</node>
+    <node x="-421.20037453183534" y="243.9906367041198">lab2.Interface1</node>
+    <node x="-118.42931656820262" y="449.0">lab2.Class2</node>
+    <node x="-88.85018726591778" y="243.99063670411977">lab2.Interface2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab2.Class3" target="lab2.Class1" relationship="TO_ONE">
+      <point x="-17.331620421336794" y="71.68890975367066" />
+      <point x="267.85142256102245" y="671.0576347565543" />
+      <point x="-385.95037453183534" y="671.0576347565543" />
+      <point x="-36.25" y="68.5" />
+    </edge>
+    <edge source="lab2.Interface1" target="lab2.Interface2" relationship="INTERFACE_GENERALIZATION">
+      <point x="73.68201943723409" y="-9.493891950645661" />
+      <point x="-276.01835509460125" y="266.6915355805244" />
+      <point x="19.899812734082218" y="266.6915355805244" />
+      <point x="36.25" y="31.5" />
+    </edge>
+    <edge source="lab2.Class2" target="lab2.Interface1" relationship="TO_ONE">
+      <point x="43.0" y="-56.5" />
+      <point x="-114.55955056179778" y="449.0" />
+      <point x="-114.55955056179778" y="375.6471672808989" />
+      <point x="-310.1806830861425" y="375.6471672808989" />
+      <point x="-310.1806830861425" y="345.8829142292134" />
+      <point x="-309.7664773073458" y="345.8829142292134" />
+      <point x="39.933897224489556" y="36.41943152317634" />
+    </edge>
+    <edge source="lab2.Interface3" target="lab2.Interface2" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="317.9999999999998" y="278.0" />
+      <point x="218.0" y="278.0" />
+      <point x="218.0" y="275.49063670411977" />
+      <point x="118.0" y="275.49063670411977" />
+      <point x="118.0" y="275.4906367041198" />
+      <point x="19.899812734082218" y="275.4906367041198" />
+      <point x="36.25" y="31.5" />
+    </edge>
+    <edge source="lab2.Class2" target="lab2.Interface2" relationship="REALIZATION">
+      <point x="-43.0" y="-56.5" />
+      <point x="-75.42931656820262" y="434.89588014981274" />
+      <point x="-52.60018726591778" y="434.89588014981274" />
+      <point x="-36.25" y="31.5" />
+    </edge>
+    <edge source="lab2.Main" target="lab2.Class3" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-51.84269662921349" y="768.6486891385769" />
+      <point x="285.1830429823592" y="768.6486891385769" />
+      <point x="0.0" y="67.6808761913701" />
+    </edge>
+    <edge source="lab2.Class1" target="lab2.Interface1" relationship="REALIZATION">
+      <point x="0.0" y="-68.5" />
+      <point x="-349.70037453183534" y="258.0" />
+      <point x="-313.95037453183534" y="258.0" />
+      <point x="35.75" y="31.5" />
+    </edge>
+    <edge source="lab2.Main" target="lab2.Class1" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-51.84269662921349" y="768.6486891385769" />
+      <point x="-313.45037453183534" y="768.6486891385769" />
+      <point x="36.25" y="68.5" />
+    </edge>
+    <edge source="lab2.Main" target="lab2.Class2" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="-51.84269662921349" y="806.7928089887638" />
+      <point x="-75.42931656820262" y="806.7928089887638" />
+      <point x="-43.0" y="56.5" />
+    </edge>
+    <edge source="lab2.Class3" target="lab2.Interface3" relationship="REALIZATION">
+      <point x="48.56086772461942" y="-67.6808761913701" />
+      <point x="333.7439107069786" y="409.5367790262173" />
+      <point x="317.9999999999998" y="409.5367790262173" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="lab2.Class3" target="lab2.Class2" relationship="GENERALIZATION">
+      <point x="-48.56086772461942" y="-67.6808761913701" />
+      <point x="236.6221752577398" y="481.3576691535581" />
+      <point x="10.570683431797377" y="481.3576691535581" />
+      <point x="43.0" y="56.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.8053812741312751" showDependencies="true" x="2.367940074905391" y="536.5199999999995" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
